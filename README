@@ -1,0 +1,23 @@
+-----------------------
+Author: Darin Beaudreau
+Last Update: 03/11/2012
+Language: Java
+Version: 1.1
+-----------------------
+
+Description:
+------------
+
+The game of life isn't necessarily a game, so much as it is a simulator. It simulates cell automata by enforcing certain rules on a grid of 'cells.' The rules are as follows:
+
+- A cell will die of loneliness if it is surrounded by 0 or 1 other cells.
+- A cell will die of overcrowding if it is surrounded by 4 or more other cells.
+- A cell survives if it surrounded by 2 or 3 other cells.
+- A new cell is created if an empty space is surrounded by exactly 3 other cells.
+
+Some complex patterns can be created.
+
+Instructions:
+-------------
+
+To 'play' the Game of Life, simply click a square to place a cell there. Once you are satisfied with the placement of your cells, click the 'Next' button. This will advance the cells a generation and enforce the rules on them. There is no objective in the Game of Life, though you could try to create a pattern that lasts the most generations. You can watch the game advance generations automatically by clicking the 'Start' button, and stop the simulation by pressing the 'Stop' button.
